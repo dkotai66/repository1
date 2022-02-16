@@ -10,6 +10,13 @@ namespace repository
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Dobókocka");
+            Random r = new Random();
+            int kockaDobottSzam = r.Next(1,7);
+
+            Console.WriteLine(kockaDobottSzam);
+
+            Console.ReadKey();
         }
     }
 }
